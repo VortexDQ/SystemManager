@@ -1,0 +1,26 @@
+[2026-07-02 20:02:24.593] [WARN ] [exec        ] Command timed out after 40s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$u='(?i)\\Temp\\|\\AppDa
+[2026-07-02 20:06:43.237] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$s=Get-MpComputerStatus 
+[2026-07-02 20:07:33.892] [WARN ] [exec        ] Command timed out after 40s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$u='(?i)\\Temp\\|\\Downl
+[2026-07-02 20:07:33.892] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance -Namespa
+[2026-07-02 20:07:33.892] [WARN ] [exec        ] Command timed out after 15s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-Content -LiteralPath
+[2026-07-02 20:07:33.893] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$mp=Get-MpPreference -Er
+[2026-07-02 20:07:33.893] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$m=@{}; Get-CimInstance 
+[2026-07-02 20:07:33.893] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance Win32_Se
+[2026-07-02 20:15:12.184] [WARN ] [exec        ] Command timed out after 90s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$s=Get-MpComputerStatus 
+[2026-07-02 20:15:12.184] [WARN ] [malware     ] Defender status query degraded — using service fallback
+[2026-07-02 20:23:43.570] [WARN ] [exec        ] Command timed out after 45s: powershell -NoProfile -ExecutionPolicy Bypass -Command "schtasks /query /fo csv 
+[2026-07-02 20:23:43.570] [WARN ] [exec        ] Command timed out after 15s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-Content -LiteralPath
+[2026-07-02 20:23:43.570] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance -Namespa
+[2026-07-02 20:23:43.570] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance Win32_Se
+[2026-07-02 20:23:43.679] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$m=@{}; Get-CimInstance 
+[2026-07-02 20:29:18.689] [WARN ] [exec        ] Command timed out after 90s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$map=@{}; Get-MpThreat -
+[2026-07-02 20:29:18.689] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance -Namespa
+[2026-07-02 20:29:18.689] [WARN ] [exec        ] Command timed out after 45s: powershell -NoProfile -ExecutionPolicy Bypass -Command "schtasks /query /fo csv 
+[2026-07-02 20:29:18.689] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$keys=@('HKCU:\Software\
+[2026-07-02 20:29:18.689] [WARN ] [exec        ] Command timed out after 15s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-Content -LiteralPath
+[2026-07-02 20:29:18.689] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance Win32_Se
+[2026-07-02 20:29:18.689] [WARN ] [exec        ] Command timed out after 90s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$s=Get-MpComputerStatus 
+[2026-07-02 20:29:18.690] [WARN ] [malware     ] Defender status query degraded — using service fallback
+[2026-07-02 20:29:19.385] [WARN ] [exec        ] Command timed out after 40s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$me=17984;$u='(?i)\\Temp
+[2026-07-02 20:29:19.385] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$m=@{}; Get-CimInstance 
+[2026-07-02 20:29:19.385] [WARN ] [exec        ] Command timed out after 60s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$mp=Get-MpPreference -Er

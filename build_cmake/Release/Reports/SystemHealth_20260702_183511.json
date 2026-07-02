@@ -1,0 +1,68 @@
+{
+  "report": {
+    "tool": "System Health Toolkit",
+    "version": "3.0.0",
+    "generated": "2026-07-02 18:42:35",
+    "platform": "Windows 11 Home",
+    "hostname": "VORTEXDQ",
+    "username": "UgurH",
+    "elevated": false
+  },
+  "health_score": {
+    "overall": 88,
+    "grade": "B+",
+    "categories": [
+      { "name": "WindowsIntegrity", "score": 90 },
+      { "name": "Storage", "score": 70 },
+      { "name": "Memory", "score": 70 },
+      { "name": "Network", "score": 100 },
+      { "name": "Security", "score": 55 },
+      { "name": "Drivers", "score": 100 },
+      { "name": "Startup", "score": 100 },
+      { "name": "Updates", "score": 100 },
+      { "name": "Hardware", "score": 100 },
+      { "name": "EventLogs", "score": 100 },
+      { "name": "Performance", "score": 85 },
+      { "name": "Reliability", "score": 91 }
+    ],
+    "warnings": [
+      "Critical: C:\\ has only 2% free space",
+      "Windows Defender is inactive",
+      "1 corruption issue(s) found"
+    ],
+    "recommendations": [
+      "Run disk cleanup to reclaim ~73.96 GB",
+      "Enable Memory Integrity in Windows Security for better protection"
+    ]
+  },
+  "storage": {
+    "totalFiles": 2086871,
+    "totalFolders": 292368,
+    "largestFile": "C:\\Users\\UgurH\\VirtualBox VMs\\Ubuntu\\Ubuntu.vdi",
+    "largestFileBytes": 26199719936,
+    "reclaimableBytes": 79415877337,
+    "drives": [
+      { "mountPoint": "C:\\", "total": 998445674496, "free": 26504290304, "used": 971941384192, "type": "SSD", "smart": true, "bitlocker": false }
+    ]
+  },
+  "hardware": {
+    "cpu": { "model": "13th Gen Intel(R) Core(TM) i5-13400F", "cores": 10, "threads": 16, "frequency": 2.5 },
+    "memory": { "total": 17179869184, "available": 1396215808, "used": 15783653376 },
+    "gpus": [
+      { "name": "NVIDIA GeForce RTX 4060", "vram": 4293918720 }
+    ],
+    "motherboard": "TUF GAMING B760-PLUS WIFI D4",
+    "uefi": true,
+    "secureBoot": true,
+    "tpmPresent": true
+  },
+  "repair": {
+    "totalPass": 0,
+    "totalFail": 0,
+    "totalSkip": 0,
+    "rebootNeeded": false,
+    "results": [
+
+    ]
+  }
+}

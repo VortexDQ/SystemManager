@@ -1,0 +1,45 @@
+Section,Key,Value
+General,Timestamp,2026-07-02 18:42:35
+General,Platform,Windows 11 Home
+General,Hostname,VORTEXDQ
+General,Elevated,No
+Health Score,Overall,88
+Health Score,Grade,B+
+Health Score,Windows Integrity,90
+Health Score,Storage,70
+Health Score,Memory,70
+Health Score,Network,100
+Health Score,Security,55
+Health Score,Drivers,100
+Health Score,Startup,100
+Health Score,Updates,100
+Health Score,Hardware,100
+Health Score,Event Logs,100
+Health Score,Performance,85
+Health Score,Reliability,91
+Storage,C:\,929.87 GB
+Storage,Total Files,2086871
+Storage,Reclaimable,79415877337
+Startup,Total,0
+Startup,Broken,0
+Hardware,CPU,13th Gen Intel(R) Core(TM) i5-13400F
+Hardware,RAM,17179869184
+Network,Ping,16
+Network,Packet Loss,0
+Events,Critical,0
+Events,Errors,0
+Performance,CPU Usage,74
+Performance,RAM Usage,91.7
+Reliability,Blue Screens,0
+Reliability,Index,9.1
+Windows,Version,25H2
+Windows,Activated,Yes
+Corruption,Issues,1
+Repair,Passed,0
+Repair,Failed,0
+Repair,Skipped,0
+Warning,,Critical: C:\ has only 2% free space
+Warning,,Windows Defender is inactive
+Warning,,1 corruption issue(s) found
+Recommendation,,Run disk cleanup to reclaim ~73.96 GB
+Recommendation,,Enable Memory Integrity in Windows Security for better protection

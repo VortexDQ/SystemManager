@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>System Health Report</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0d1117; color: #c9d1d9; padding: 40px; }
+h1 { color: #58a6ff; font-size: 2em; margin-bottom: 5px; }
+h2 { color: #58a6ff; border-bottom: 2px solid #30363d; padding-bottom: 8px; margin: 30px 0 15px; cursor: pointer; }
+h2::before { content: '▼ '; }
+h2.collapsed::before { content: '▶ '; }
+h2:hover { color: #79c0ff; }
+.container { max-width: 1100px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 30px; }
+.score-ring { width: 180px; height: 180px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin: 20px; position: relative; }
+.score-ring { background: conic-gradient(#ffc107 0deg, #ffc107 316.8deg, #30363d 316.8deg); }
+.score-inner { width: 140px; height: 140px; border-radius: 50%; background: #0d1117; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.score-number { font-size: 3em; font-weight: bold; color: #ffc107; }
+.score-grade { font-size: 1.5em; color: #ffc107; }
+.score-label { color: #8b949e; font-size: 0.9em; }
+table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #21262d; }
+th { background: #161b22; color: #58a6ff; font-weight: 600; }
+tr:hover { background: #161b22; }
+.health-bar { height: 20px; border-radius: 10px; background: #30363d; overflow: hidden; min-width: 200px; }
+.health-bar-fill { height: 100%; border-radius: 10px; transition: width 0.5s; }
+.badge { padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 600; }
+.badge-ok { background: #00c85333; color: #00c853; }
+.badge-warn { background: #ffc10733; color: #ffc107; }
+.badge-err { background: #f4433633; color: #f44336; }
+.card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 20px; margin: 10px 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; }
+.stat { text-align: center; }
+.stat-value { font-size: 1.5em; font-weight: bold; color: #58a6ff; }
+.stat-label { color: #8b949e; font-size: 0.85em; }
+.warning { border-left: 4px solid #ffc107; padding: 12px; margin: 8px 0; background: #ffc1070d; }
+.error-item { border-left: 4px solid #f44336; padding: 12px; margin: 8px 0; background: #f443360d; }
+.recommendation { border-left: 4px solid #00c853; padding: 12px; margin: 8px 0; background: #00c8530d; }
+.section-content { margin: 10px 0; }
+.meta { color: #8b949e; font-size: 0.9em; margin-bottom: 5px; }
+footer { text-align: center; margin-top: 40px; padding: 20px; border-top: 1px solid #30363d; color: #8b949e; }
+@media (max-width: 600px) { body { padding: 15px; } .grid { grid-template-columns: 1fr; } }
+</style>
+<script>
+document.addEventListener('click', function(e) {
+  if (e.target.tagName === 'H2') {
+    var next = e.target.nextElementSibling;
+    while (next && next.tagName !== 'H2') { next.style.display = next.style.display === 'none' ? '' : 'none'; next = next.nextElementSibling; }
+    e.target.classList.toggle('collapsed');
+  }
+});
+</script>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>🩺 System Health Toolkit Report</h1>
+<p class="meta">Generated: 2026-07-02 18:42:35 | Windows 11 Home | VORTEXDQ</p>
+<div class="score-ring"><div class="score-inner">
+  <div class="score-label">Overall Health</div>
+  <div class="score-number">88%</div>
+  <div class="score-grade">B+</div>
+</div></div>
+</div>
+<h2>Category Scores</h2>
+<div class="section-content">
+<div style="margin: 8px 0;"><span style="display: inline-block; width: 160px;">Windows Integrity</span>
+<div class="health-bar" style="display: inline-block; vertical-align: middle;">
+<div class="health-bar-fill" style="width: 90%; background: #00c853;"></div></div>
+<span style="margin-left: 10px; font-weight: bold; color: #00c853;">90%</span></div>
+<div style="margin: 8px 0;"><span style="display: inline-block; width: 160px;">Storage</span>
+<div class="health-bar" style="display: inline-block; vertical-align: middle;">
+<div class="health-bar-fill" style="width: 70%; background: #ff9800;"></div></div>
+<span style="margin-left: 10px; font-weight: bold; color: #ff9800;">70%</span></div>
+<div style="margin: 8px 0;"><span style="display: inline-block; width: 160px;">Memory</span>
+<div class="health-bar" style="display: inline-block; vertical-align: middle;">
+<div class="health-bar-fill" style="width: 70%; background: #ff9800;"></div></div>
+<span style="margin-left: 10px; font-weight: bold; color: #ff9800;">70%</span></div>
+<div style="margin: 8px 0;"><span style="display: inline-block; width: 160px;">Network</span>
+<div class="health-bar" style="display: inline-block; vertical-align: middle;">
+<div class="health-bar-fill" style="width: 100%; background: #00c853;"></div></div>
+<span style="margin-left: 10px; font-weight: bold; color: #00c853;">100%</span></div>
+<div style="margin: 8px 0;"><span style="display: inline-block; width: 160px;">Security</span>
+<div class="health-bar" style="display: inline-block; vertical-align: middle;">
+<div class="health-bar-fill" style="width: 55%; background: #ff9800;"></div></div>
+<span style="margin-left: 10px; font-weight: bold; color: #ff9800;">55%</span></div>
+<div style="margin: 8px 0;"><span style="display: inline-block; width: 160px;">Drivers</span>
+<div class="health-bar" style="display: inline-block; vertical-align: middle;">
+<div class="health-bar-fill" style="width: 100%; background: #00c853;"></div></div>
+<span style="margin-left: 10px; font-weight: bold; color: #00c853;">100%</span></div>
+<div style="margin: 8px 0;"><span style="display: inline-block; width: 160px;">Startup</span>
+<div class="health-bar" style="display: inline-block; vertical-align: middle;">
+<div class="health-bar-fill" style="width: 100%; background: #00c853;"></div></div>
+<span style="margin-left: 10px; font-weight: bold; color: #00c853;">100%</span></div>
+<div style="margin: 8px 0;"><span style="display: inline-block; width: 160px;">Updates</span>
+<div class="health-bar" style="display: inline-block; vertical-align: middle;">
+<div class="health-bar-fill" style="width: 100%; background: #00c853;"></div></div>
+<span style="margin-left: 10px; font-weight: bold; color: #00c853;">100%</span></div>
+<div style="margin: 8px 0;"><span style="display: inline-block; width: 160px;">Hardware</span>
+<div class="health-bar" style="display: inline-block; vertical-align: middle;">
+<div class="health-bar-fill" style="width: 100%; background: #00c853;"></div></div>
+<span style="margin-left: 10px; font-weight: bold; color: #00c853;">100%</span></div>
+<div style="margin: 8px 0;"><span style="display: inline-block; width: 160px;">Event Logs</span>
+<div class="health-bar" style="display: inline-block; vertical-align: middle;">
+<div class="health-bar-fill" style="width: 100%; background: #00c853;"></div></div>
+<span style="margin-left: 10px; font-weight: bold; color: #00c853;">100%</span></div>
+<div style="margin: 8px 0;"><span style="display: inline-block; width: 160px;">Performance</span>
+<div class="health-bar" style="display: inline-block; vertical-align: middle;">
+<div class="health-bar-fill" style="width: 85%; background: #ffc107;"></div></div>
+<span style="margin-left: 10px; font-weight: bold; color: #ffc107;">85%</span></div>
+<div style="margin: 8px 0;"><span style="display: inline-block; width: 160px;">Reliability</span>
+<div class="health-bar" style="display: inline-block; vertical-align: middle;">
+<div class="health-bar-fill" style="width: 91%; background: #00c853;"></div></div>
+<span style="margin-left: 10px; font-weight: bold; color: #00c853;">91%</span></div>
+</div>
+<h2>Storage</h2>
+<div class="section-content">
+<table><tr><th>Drive</th><th>Total</th><th>Used</th><th>Free</th><th>Type</th></tr>
+<tr><td>C:\</td><td>929.87 GB</td><td>905.19 GB (97%)</td><td>24.68 GB</td><td>SSD</td></tr>
+</table>
+<div class="grid">
+<div class="card stat"><div class="stat-value">2086871</div><div class="stat-label">Total Files</div></div>
+<div class="card stat"><div class="stat-value">292368</div><div class="stat-label">Total Folders</div></div>
+<div class="card stat"><div class="stat-value">24.40 GB</div><div class="stat-label">Largest File</div></div>
+<div class="card stat"><div class="stat-value">73.96 GB</div><div class="stat-label">Reclaimable Space</div></div>
+</div>
+</div>
+<h2>Hardware</h2>
+<div class="section-content">
+<table><tr><th>Component</th><th>Details</th></tr>
+<tr><td>CPU</td><td>13th Gen Intel(R) Core(TM) i5-13400F (10C/16T @ 2.5GHz)</td></tr>
+<tr><td>RAM</td><td>16.00 GB (91% used)</td></tr>
+<tr><td>GPU 1</td><td>NVIDIA GeForce RTX 4060 (4.00 GB)</td></tr>
+<tr><td>Motherboard</td><td>TUF GAMING B760-PLUS WIFI D4</td></tr>
+<tr><td>BIOS</td><td>1402 (UEFI)</td></tr>
+<tr><td>Secure Boot</td><td>✅ Enabled</td></tr>
+<tr><td>TPM</td><td>✅ Present</td></tr>
+</table>
+</div>
+<h2>Network</h2>
+<div class="section-content">
+<table><tr><th>Adapter</th><th>Type</th><th>IP</th><th>Status</th></tr>
+<tr><td>Ethernet 2</td><td>Ethernet</td><td>192.168.56.1</td><td><span class="badge badge-ok">Connected</span></td></tr>
+<tr><td>Ethernet</td><td>Ethernet</td><td>192.168.10.145</td><td><span class="badge badge-ok">Connected</span></td></tr>
+<tr><td>Npcap Loopback Adapter</td><td>Unspecified</td><td>169.254.223.105</td><td><span class="badge badge-ok">Connected</span></td></tr>
+</table>
+<p>Public IP: 92.221.41.111 | Ping: 16ms | Packet Loss: 0%</p>
+<p>VPN: Inactive | Firewall: Active</p>
+</div>
+<h2>Startup Analysis</h2>
+<div class="section-content">
+<div class="grid">
+<div class="card stat"><div class="stat-value">0</div><div class="stat-label">Startup Items</div></div>
+<div class="card stat"><div class="stat-value">0</div><div class="stat-label">Enabled</div></div>
+<div class="card stat"><div class="stat-value">0</div><div class="stat-label" style="color: #f44336;">Broken</div></div>
+<div class="card stat"><div class="stat-value">0</div><div class="stat-label" style="color: #ffc107;">Unsigned</div></div>
+</div>
+</div>
+<h2>Event Logs</h2>
+<div class="section-content">
+<div class="grid">
+<div class="card stat"><div class="stat-value" style="color: #f44336;">0</div><div class="stat-label">Critical</div></div>
+<div class="card stat"><div class="stat-value" style="color: #ff9800;">0</div><div class="stat-label">Errors</div></div>
+<div class="card stat"><div class="stat-value" style="color: #ffc107;">0</div><div class="stat-label">Warnings</div></div>
+</div>
+</div>
+<h2>Performance</h2>
+<div class="section-content">
+<div class="grid">
+<div class="card stat"><div class="stat-value">74%</div><div class="stat-label">CPU Usage</div></div>
+<div class="card stat"><div class="stat-value">91%</div><div class="stat-label">RAM Usage</div></div>
+<div class="card stat"><div class="stat-value">418</div><div class="stat-label">Processes</div></div>
+<div class="card stat"><div class="stat-value">131</div><div class="stat-label">Services</div></div>
+</div>
+</div>
+<h2>Reliability</h2>
+<div class="section-content">
+<div class="grid">
+<div class="card stat"><div class="stat-value" style="color: #f44336;">0</div><div class="stat-label">Blue Screens</div></div>
+<div class="card stat"><div class="stat-value" style="color: #ff9800;">3</div><div class="stat-label">App Crashes</div></div>
+<div class="card stat"><div class="stat-value">9.1</div><div class="stat-label">Reliability /10</div></div>
+</div>
+</div>
+<h2>Windows Information</h2>
+<div class="section-content">
+<table><tr><th>Property</th><th>Value</th></tr>
+<tr><td>Edition</td><td>Microsoft Windows 11 Home</td></tr>
+<tr><td>Version</td><td>25H2 (Build 26200)</td></tr>
+<tr><td>Installed</td><td>02/12/2026 21:38:52</td></tr>
+<tr><td>Uptime</td><td>0d 1h 52m</td></tr>
+<tr><td>Activation</td><td>✅ Activated</td></tr>
+<tr><td>Defender</td><td>❌ Inactive</td></tr>
+<tr><td>Hyper-V</td><td>Disabled</td></tr>
+<tr><td>WSL</td><td>Not installed</td></tr>
+<tr><td>Secure Boot</td><td>Enabled</td></tr>
+</table>
+</div>
+<h2>Corruption Detection</h2>
+<div class="section-content">
+<div class="card">
+<p><strong>Issues Found:</strong> 1</p>
+<div class="error-item">Pending reboot detected (file rename operations)</div>
+</div>
+</div>
+<h2>Repair Results</h2>
+<div class="section-content">
+<div class="grid">
+<div class="card stat"><div class="stat-value" style="color: #00c853;">0</div><div class="stat-label">Passed</div></div>
+<div class="card stat"><div class="stat-value" style="color: #f44336;">0</div><div class="stat-label">Failed</div></div>
+<div class="card stat"><div class="stat-value">0</div><div class="stat-label">Skipped</div></div>
+</div>
+<table><tr><th>Action</th><th>Result</th><th>Duration</th></tr>
+</table>
+</div>
+<h2>Warnings</h2>
+<div class="section-content">
+<div class="warning">⚠ Critical: C:\ has only 2% free space</div>
+<div class="warning">⚠ Windows Defender is inactive</div>
+<div class="warning">⚠ 1 corruption issue(s) found</div>
+</div>
+<h2>Recommendations</h2>
+<div class="section-content">
+<div class="recommendation">→ Run disk cleanup to reclaim ~73.96 GB</div>
+<div class="recommendation">→ Enable Memory Integrity in Windows Security for better protection</div>
+</div>
+<footer>
+<p>Generated by System Health Toolkit v3.0.0</p>
+<p>Copyright (c) 2026 System Health Toolkit. MIT License.</p>
+</footer>
+</div>
+</body>
+</html>

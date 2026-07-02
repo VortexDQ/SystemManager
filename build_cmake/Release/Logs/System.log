@@ -1,0 +1,479 @@
+
+========================================================================
+ SESSION START  2026-07-01 22:33:34.849
+========================================================================
+[2026-07-01 22:33:34.849] [INFO ] [main        ] System Health Toolkit v2.2.0 started
+[2026-07-01 22:33:34.849] [INFO ] [main        ] Platform: Windows 10 Home 25H2
+[2026-07-01 22:33:34.849] [INFO ] [main        ] Elevated: No
+
+========================================================================
+ SESSION START  2026-07-01 22:33:46.183
+========================================================================
+[2026-07-01 22:33:46.184] [INFO ] [main        ] System Health Toolkit v2.2.0 started
+[2026-07-01 22:33:46.184] [INFO ] [main        ] Platform: Windows 10 Home 25H2
+[2026-07-01 22:33:46.184] [INFO ] [main        ] Elevated: No
+[2026-07-01 22:33:46.184] [INFO ] [scan        ] Full scan started
+[2026-07-01 22:33:46.184] [INFO ] [storage     ] Storage analysis started
+[2026-07-01 22:34:04.841] [INFO ] [storage     ] Parallel scanning C:\
+
+========================================================================
+ SESSION START  2026-07-02 18:17:17.794
+========================================================================
+[2026-07-02 18:17:17.794] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 18:17:17.795] [INFO ] [main        ] Platform: Windows 10 Home 25H2
+[2026-07-02 18:17:17.795] [INFO ] [main        ] Elevated: No
+[2026-07-02 18:17:17.795] [INFO ] [scan        ] Hardware scan started
+[2026-07-02 18:17:17.795] [INFO ] [hardware    ] Hardware scan started
+[2026-07-02 18:17:25.498] [INFO ] [scan        ] Hardware Scan  (7.70s)
+  >> 13th Gen Intel(R) Core(TM) i5-13400F
+[2026-07-02 18:17:25.560] [INFO ] [scan        ] Hardware scan complete
+[2026-07-02 18:17:25.560] [INFO ] [main        ] Session ended by user
+
+========================================================================
+ SESSION START  2026-07-02 18:18:13.195
+========================================================================
+[2026-07-02 18:18:13.196] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 18:18:13.196] [INFO ] [main        ] Platform: Windows 10 Home 25H2
+[2026-07-02 18:18:13.196] [INFO ] [main        ] Elevated: No
+[2026-07-02 18:18:13.196] [INFO ] [scan        ] Health scan started
+[2026-07-02 18:18:13.196] [INFO ] [storage     ] Storage analysis started (quick)
+[2026-07-02 18:18:13.197] [INFO ] [hardware    ] Hardware scan started
+[2026-07-02 18:18:13.197] [INFO ] [network     ] Network scan started
+[2026-07-02 18:18:13.197] [INFO ] [perf        ] Performance measurement started
+[2026-07-02 18:18:13.197] [INFO ] [reliability ] Reliability analysis started
+[2026-07-02 18:18:13.197] [INFO ] [winfo       ] Windows info scan started
+[2026-07-02 18:18:13.197] [INFO ] [corruption  ] Corruption scan started
+[2026-07-02 18:18:13.907] [INFO ] [scan        ] Windows Update Detection  (0.0ms)
+  >> Available=0
+[2026-07-02 18:18:15.343] [INFO ] [scan        ] Performance  (2.15s)
+  >> CPU=48% RAM=88%
+[2026-07-02 18:18:17.111] [INFO ] [scan        ] Reliability  (3.91s)
+  >> index=0.000000 BSOD=0
+[2026-07-02 18:18:21.000] [INFO ] [scan        ] Hardware Scan  (7.80s)
+  >> 13th Gen Intel(R) Core(TM) i5-13400F
+[2026-07-02 18:18:26.895] [INFO ] [scan        ] Windows Info  (13.70s)
+  >> Microsoft Windows 11 Home 25H2
+[2026-07-02 18:18:28.931] [INFO ] [scan        ] Network Scan  (15.73s)
+  >> Adapters=3
+[2026-07-02 18:18:53.311] [INFO ] [scan        ] Storage Analysis  (40.11s)
+  >> Drives=1 Files=0
+[2026-07-02 18:20:15.739] [INFO ] [scan        ] Corruption Scan  (122.54s)
+  >> 2 issues
+[2026-07-02 18:20:15.747] [INFO ] [scan        ] Health scan completed. Score: 73%
+[2026-07-02 18:20:15.747] [INFO ] [main        ] Session ended by user
+
+========================================================================
+ SESSION START  2026-07-02 18:22:48.756
+========================================================================
+[2026-07-02 18:22:48.757] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 18:22:48.757] [INFO ] [main        ] Platform: Windows 10 Home 25H2
+[2026-07-02 18:22:48.757] [INFO ] [main        ] Elevated: No
+[2026-07-02 18:22:48.757] [INFO ] [scan        ] Health scan started
+[2026-07-02 18:22:48.757] [INFO ] [storage     ] Storage analysis started (quick)
+[2026-07-02 18:22:48.757] [INFO ] [hardware    ] Hardware scan started
+[2026-07-02 18:22:48.758] [INFO ] [network     ] Network scan started
+[2026-07-02 18:22:48.758] [INFO ] [perf        ] Performance measurement started
+[2026-07-02 18:22:48.758] [INFO ] [reliability ] Reliability analysis started
+[2026-07-02 18:22:48.758] [INFO ] [winfo       ] Windows info scan started
+[2026-07-02 18:22:48.758] [INFO ] [corruption  ] Corruption scan started
+[2026-07-02 18:22:49.515] [INFO ] [scan        ] Windows Update Detection  (0.0ms)
+  >> Available=0
+[2026-07-02 18:22:50.004] [INFO ] [scan        ] Corruption Scan  (1.25s)
+  >> 2 issues
+[2026-07-02 18:22:50.877] [INFO ] [scan        ] Performance  (2.12s)
+  >> CPU=29% RAM=87%
+[2026-07-02 18:22:52.468] [INFO ] [scan        ] Reliability  (3.71s)
+  >> index=0.000000 BSOD=0
+[2026-07-02 18:22:56.637] [INFO ] [scan        ] Hardware Scan  (7.88s)
+  >> 13th Gen Intel(R) Core(TM) i5-13400F
+[2026-07-02 18:22:58.773] [INFO ] [scan        ] Windows Info  (10.02s)
+  >> Microsoft Windows 11 Home 25H2
+[2026-07-02 18:23:02.161] [INFO ] [scan        ] Network Scan  (13.40s)
+  >> Adapters=3
+[2026-07-02 18:23:08.294] [INFO ] [scan        ] Storage Analysis  (19.54s)
+  >> Drives=1 Files=0
+[2026-07-02 18:23:08.338] [INFO ] [scan        ] Health scan completed. Score: 73%
+[2026-07-02 18:23:08.338] [INFO ] [main        ] Session ended by user
+
+========================================================================
+ SESSION START  2026-07-02 18:24:34.453
+========================================================================
+[2026-07-02 18:24:34.454] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 18:24:34.454] [INFO ] [main        ] Platform: Windows 10 Home 25H2
+[2026-07-02 18:24:34.454] [INFO ] [main        ] Elevated: No
+[2026-07-02 18:24:34.454] [INFO ] [scan        ] Health scan started
+[2026-07-02 18:24:34.454] [INFO ] [storage     ] Storage analysis started (quick)
+[2026-07-02 18:24:34.455] [INFO ] [hardware    ] Hardware scan started
+[2026-07-02 18:24:34.455] [INFO ] [network     ] Network scan started
+[2026-07-02 18:24:34.455] [INFO ] [perf        ] Performance measurement started
+[2026-07-02 18:24:34.455] [INFO ] [reliability ] Reliability analysis started
+[2026-07-02 18:24:34.455] [INFO ] [winfo       ] Windows info scan started
+[2026-07-02 18:24:34.455] [INFO ] [corruption  ] Corruption scan started
+[2026-07-02 18:24:35.143] [INFO ] [scan        ] Windows Update Detection  (0.0ms)
+  >> Available=0
+[2026-07-02 18:24:35.600] [INFO ] [scan        ] Corruption Scan  (1.14s)
+  >> 1 issues
+[2026-07-02 18:24:36.544] [INFO ] [scan        ] Performance  (2.09s)
+  >> CPU=17% RAM=88%
+[2026-07-02 18:24:37.942] [INFO ] [scan        ] Reliability  (3.49s)
+  >> index=8.900000 BSOD=0
+[2026-07-02 18:24:42.225] [INFO ] [scan        ] Hardware Scan  (7.77s)
+  >> 13th Gen Intel(R) Core(TM) i5-13400F
+[2026-07-02 18:24:44.320] [INFO ] [scan        ] Storage Analysis  (9.87s)
+  >> Drives=1 Files=0
+[2026-07-02 18:24:44.321] [INFO ] [scan        ] Windows Info  (9.87s)
+  >> Microsoft Windows 11 Home 25H2
+[2026-07-02 18:24:46.993] [INFO ] [scan        ] Network Scan  (12.54s)
+  >> Adapters=3
+[2026-07-02 18:24:47.036] [INFO ] [scan        ] Health scan completed. Score: 90%
+[2026-07-02 18:24:47.036] [INFO ] [main        ] Session ended by user
+
+========================================================================
+ SESSION START  2026-07-02 18:24:54.192
+========================================================================
+[2026-07-02 18:24:54.193] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 18:24:54.193] [INFO ] [main        ] Platform: Windows 10 Home 25H2
+[2026-07-02 18:24:54.193] [INFO ] [main        ] Elevated: No
+[2026-07-02 18:24:54.193] [INFO ] [scan        ] Health scan started
+[2026-07-02 18:24:54.193] [INFO ] [storage     ] Storage analysis started (quick)
+[2026-07-02 18:24:54.194] [INFO ] [hardware    ] Hardware scan started
+[2026-07-02 18:24:54.194] [INFO ] [network     ] Network scan started
+[2026-07-02 18:24:54.194] [INFO ] [perf        ] Performance measurement started
+[2026-07-02 18:24:54.194] [INFO ] [reliability ] Reliability analysis started
+[2026-07-02 18:24:54.194] [INFO ] [winfo       ] Windows info scan started
+[2026-07-02 18:24:54.194] [INFO ] [corruption  ] Corruption scan started
+[2026-07-02 18:24:54.911] [INFO ] [scan        ] Windows Update Detection  (0.0ms)
+  >> Available=0
+[2026-07-02 18:24:55.330] [INFO ] [scan        ] Corruption Scan  (1.14s)
+  >> 1 issues
+[2026-07-02 18:24:56.275] [INFO ] [scan        ] Performance  (2.08s)
+  >> CPU=27% RAM=87%
+[2026-07-02 18:24:57.666] [INFO ] [scan        ] Reliability  (3.47s)
+  >> index=8.900000 BSOD=0
+[2026-07-02 18:25:01.895] [INFO ] [scan        ] Hardware Scan  (7.70s)
+  >> 13th Gen Intel(R) Core(TM) i5-13400F
+[2026-07-02 18:25:03.836] [INFO ] [scan        ] Storage Analysis  (9.64s)
+  >> Drives=1 Files=0
+[2026-07-02 18:25:04.964] [INFO ] [scan        ] Windows Info  (10.77s)
+  >> Microsoft Windows 11 Home 25H2
+[2026-07-02 18:25:06.115] [INFO ] [scan        ] Network Scan  (11.92s)
+  >> Adapters=3
+[2026-07-02 18:25:06.173] [INFO ] [scan        ] Health scan completed. Score: 90%
+[2026-07-02 18:25:06.173] [INFO ] [main        ] Session ended by user
+
+========================================================================
+ SESSION START  2026-07-02 18:25:22.535
+========================================================================
+[2026-07-02 18:25:22.536] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 18:25:22.536] [INFO ] [main        ] Platform: Windows 10 Home 25H2
+[2026-07-02 18:25:22.536] [INFO ] [main        ] Elevated: No
+[2026-07-02 18:25:22.536] [INFO ] [scan        ] Startup analysis started
+[2026-07-02 18:25:22.536] [INFO ] [startup     ] Startup analysis started
+[2026-07-02 18:25:23.199] [INFO ] [scan        ] Startup Analysis  (663.3ms)
+  >> Entries=29 Broken=3
+[2026-07-02 18:25:23.287] [INFO ] [scan        ] Network diagnostics started
+[2026-07-02 18:25:23.287] [INFO ] [network     ] Network scan started
+[2026-07-02 18:25:34.464] [INFO ] [scan        ] Network Scan  (11.18s)
+  >> Adapters=3
+[2026-07-02 18:25:34.481] [INFO ] [scan        ] Network diagnostics complete
+[2026-07-02 18:25:34.481] [INFO ] [main        ] Session ended by user
+
+========================================================================
+ SESSION START  2026-07-02 18:26:21.308
+========================================================================
+[2026-07-02 18:26:21.309] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 18:26:21.309] [INFO ] [main        ] Platform: Windows 11 Home 25H2
+[2026-07-02 18:26:21.309] [INFO ] [main        ] Elevated: No
+[2026-07-02 18:26:21.309] [INFO ] [malware     ] Malware scan requested (mode 1)
+[2026-07-02 18:26:21.309] [INFO ] [malware     ] Malware scan started (depth=Assessment)
+[2026-07-02 18:26:22.688] [INFO ] [malware     ] AV engine: Windows Defender present
+[2026-07-02 18:26:24.066] [INFO ] [malware     ] Threat history: 0 active, 0 resolved
+[2026-07-02 18:26:26.965] [INFO ] [malware     ] Heuristics flagged 0 indicator(s)
+[2026-07-02 18:26:26.965] [INFO ] [malware     ] Malware verdict: Clean (score 80)
+[2026-07-02 18:26:26.965] [INFO ] [malware     ] Malware scan verdict: Clean
+[2026-07-02 18:26:26.965] [INFO ] [main        ] Session ended by user
+
+========================================================================
+ SESSION START  2026-07-02 18:26:37.606
+========================================================================
+[2026-07-02 18:26:37.606] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 18:26:37.606] [INFO ] [main        ] Platform: Windows 11 Home 25H2
+[2026-07-02 18:26:37.606] [INFO ] [main        ] Elevated: No
+[2026-07-02 18:26:37.607] [INFO ] [storage     ] Storage analysis started (deep)
+[2026-07-02 18:26:37.607] [INFO ] [hardware    ] Hardware scan started
+[2026-07-02 18:26:37.607] [INFO ] [network     ] Network scan started
+[2026-07-02 18:26:37.607] [INFO ] [perf        ] Performance measurement started
+[2026-07-02 18:26:37.608] [INFO ] [reliability ] Reliability analysis started
+[2026-07-02 18:26:37.608] [INFO ] [winfo       ] Windows info scan started
+[2026-07-02 18:26:37.608] [INFO ] [corruption  ] Corruption scan started
+[2026-07-02 18:26:38.414] [INFO ] [scan        ] Windows Update Detection  (0.0ms)
+  >> Available=0
+[2026-07-02 18:26:38.833] [INFO ] [scan        ] Corruption Scan  (1.23s)
+  >> 1 issues
+[2026-07-02 18:26:39.956] [INFO ] [scan        ] Performance  (2.35s)
+  >> CPU=34% RAM=88%
+[2026-07-02 18:26:41.399] [INFO ] [scan        ] Reliability  (3.79s)
+  >> index=8.900000 BSOD=0
+[2026-07-02 18:26:45.766] [INFO ] [scan        ] Hardware Scan  (8.16s)
+  >> 13th Gen Intel(R) Core(TM) i5-13400F
+[2026-07-02 18:26:47.648] [INFO ] [storage     ] Parallel scanning C:\
+[2026-07-02 18:26:47.791] [INFO ] [scan        ] Windows Info  (10.18s)
+  >> Microsoft Windows 11 Home 25H2
+[2026-07-02 18:26:50.168] [INFO ] [scan        ] Network Scan  (12.56s)
+  >> Adapters=3
+
+========================================================================
+ SESSION START  2026-07-02 18:31:23.957
+========================================================================
+[2026-07-02 18:31:23.958] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 18:31:23.958] [INFO ] [main        ] Platform: Windows 11 Home 25H2
+[2026-07-02 18:31:23.958] [INFO ] [main        ] Elevated: No
+[2026-07-02 18:31:23.959] [INFO ] [storage     ] Storage analysis started (deep)
+[2026-07-02 18:31:23.959] [INFO ] [hardware    ] Hardware scan started
+[2026-07-02 18:31:23.959] [INFO ] [network     ] Network scan started
+[2026-07-02 18:31:23.959] [INFO ] [perf        ] Performance measurement started
+[2026-07-02 18:31:23.959] [INFO ] [reliability ] Reliability analysis started
+[2026-07-02 18:31:23.960] [INFO ] [winfo       ] Windows info scan started
+[2026-07-02 18:31:23.960] [INFO ] [corruption  ] Corruption scan started
+[2026-07-02 18:31:24.989] [INFO ] [scan        ] Windows Update Detection  (0.0ms)
+  >> Available=0
+[2026-07-02 18:31:25.680] [INFO ] [scan        ] Corruption Scan  (1.72s)
+  >> 1 issues
+[2026-07-02 18:31:26.583] [INFO ] [scan        ] Performance  (2.62s)
+  >> CPU=46% RAM=89%
+[2026-07-02 18:31:32.906] [INFO ] [scan        ] Hardware Scan  (8.95s)
+  >> 13th Gen Intel(R) Core(TM) i5-13400F
+[2026-07-02 18:31:33.521] [INFO ] [scan        ] Reliability  (9.56s)
+  >> index=9.100000 BSOD=0
+[2026-07-02 18:31:41.829] [INFO ] [scan        ] Windows Info  (17.87s)
+  >> Microsoft Windows 11 Home 25H2
+[2026-07-02 18:31:43.410] [INFO ] [storage     ] Parallel scanning C:\
+[2026-07-02 18:31:49.769] [INFO ] [scan        ] Network Scan  (25.81s)
+  >> Adapters=3
+
+========================================================================
+ SESSION START  2026-07-02 18:35:11.583
+========================================================================
+[2026-07-02 18:35:11.583] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 18:35:11.583] [INFO ] [main        ] Platform: Windows 11 Home 25H2
+[2026-07-02 18:35:11.583] [INFO ] [main        ] Elevated: No
+[2026-07-02 18:35:11.584] [INFO ] [storage     ] Storage analysis started (deep)
+[2026-07-02 18:35:11.585] [INFO ] [hardware    ] Hardware scan started
+[2026-07-02 18:35:11.585] [INFO ] [network     ] Network scan started
+[2026-07-02 18:35:11.585] [INFO ] [perf        ] Performance measurement started
+[2026-07-02 18:35:11.585] [INFO ] [reliability ] Reliability analysis started
+[2026-07-02 18:35:11.585] [INFO ] [winfo       ] Windows info scan started
+[2026-07-02 18:35:11.585] [INFO ] [corruption  ] Corruption scan started
+[2026-07-02 18:35:12.573] [INFO ] [scan        ] Windows Update Detection  (0.0ms)
+  >> Available=0
+[2026-07-02 18:35:13.422] [INFO ] [scan        ] Corruption Scan  (1.84s)
+  >> 1 issues
+[2026-07-02 18:35:14.425] [INFO ] [scan        ] Performance  (2.84s)
+  >> CPU=74% RAM=91%
+[2026-07-02 18:35:21.204] [INFO ] [scan        ] Hardware Scan  (9.62s)
+  >> 13th Gen Intel(R) Core(TM) i5-13400F
+[2026-07-02 18:35:27.983] [INFO ] [scan        ] Reliability  (16.40s)
+  >> index=9.100000 BSOD=0
+[2026-07-02 18:35:35.215] [INFO ] [scan        ] Windows Info  (23.63s)
+  >> Microsoft Windows 11 Home 25H2
+[2026-07-02 18:35:43.006] [INFO ] [scan        ] Network Scan  (31.42s)
+  >> Adapters=3
+[2026-07-02 18:35:54.957] [INFO ] [storage     ] Parallel scanning C:\
+[2026-07-02 18:42:35.822] [INFO ] [scan        ] Storage Analysis  (444.24s)
+  >> Drives=1 Files=2086871
+[2026-07-02 18:42:35.868] [INFO ] [export      ] TXT report saved: C:\Users\UgurH\Downloads\SystemManager\build_cmake\Release/Reports/SystemHealth_20260702_183511.txt
+[2026-07-02 18:42:35.871] [INFO ] [export      ] HTML report saved: C:\Users\UgurH\Downloads\SystemManager\build_cmake\Release/Reports/SystemHealth_20260702_183511.html
+[2026-07-02 18:42:35.872] [INFO ] [export      ] JSON report saved: C:\Users\UgurH\Downloads\SystemManager\build_cmake\Release/Reports/SystemHealth_20260702_183511.json
+[2026-07-02 18:42:35.874] [INFO ] [export      ] CSV report saved: C:\Users\UgurH\Downloads\SystemManager\build_cmake\Release/Reports/SystemHealth_20260702_183511.csv
+[2026-07-02 18:42:35.877] [INFO ] [main        ] Session ended by user
+
+========================================================================
+ SESSION START  2026-07-02 18:43:55.875
+========================================================================
+[2026-07-02 18:43:55.876] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 18:43:55.876] [INFO ] [main        ] Platform: Windows 11 Home 25H2
+[2026-07-02 18:43:55.876] [INFO ] [main        ] Elevated: No
+[2026-07-02 18:43:55.876] [INFO ] [scan        ] Health scan started
+[2026-07-02 18:43:55.876] [INFO ] [storage     ] Storage analysis started (quick)
+[2026-07-02 18:43:55.877] [INFO ] [hardware    ] Hardware scan started
+[2026-07-02 18:43:55.877] [INFO ] [network     ] Network scan started
+[2026-07-02 18:43:55.877] [INFO ] [perf        ] Performance measurement started
+[2026-07-02 18:43:55.877] [INFO ] [reliability ] Reliability analysis started
+[2026-07-02 18:43:55.877] [INFO ] [winfo       ] Windows info scan started
+[2026-07-02 18:43:55.877] [INFO ] [corruption  ] Corruption scan started
+[2026-07-02 18:43:57.264] [INFO ] [scan        ] Windows Update Detection  (0.0ms)
+  >> Available=0
+[2026-07-02 18:43:58.702] [INFO ] [scan        ] Corruption Scan  (2.82s)
+  >> 1 issues
+[2026-07-02 18:43:59.159] [INFO ] [scan        ] Performance  (3.28s)
+  >> CPU=71% RAM=90%
+[2026-07-02 18:44:05.944] [INFO ] [scan        ] Hardware Scan  (10.07s)
+  >> 13th Gen Intel(R) Core(TM) i5-13400F
+[2026-07-02 18:44:08.952] [INFO ] [scan        ] Reliability  (13.07s)
+  >> index=9.100000 BSOD=0
+[2026-07-02 18:44:18.001] [INFO ] [scan        ] Windows Info  (22.12s)
+  >> Microsoft Windows 11 Home 25H2
+[2026-07-02 18:44:25.951] [INFO ] [scan        ] Network Scan  (30.07s)
+  >> Adapters=3
+[2026-07-02 18:44:33.374] [INFO ] [scan        ] Storage Analysis  (37.50s)
+  >> Drives=1 Files=0
+[2026-07-02 18:44:33.390] [INFO ] [scan        ] Health scan completed. Score: 88%
+[2026-07-02 18:44:33.390] [INFO ] [main        ] Session ended by user
+
+========================================================================
+ SESSION START  2026-07-02 19:25:30.220
+========================================================================
+[2026-07-02 19:25:30.221] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 19:25:30.221] [INFO ] [main        ] Platform: Windows 11 Home 25H2
+[2026-07-02 19:25:30.221] [INFO ] [main        ] Elevated: No
+[2026-07-02 19:25:30.221] [INFO ] [main        ] Session ended by user
+
+========================================================================
+ SESSION START  2026-07-02 19:25:58.995
+========================================================================
+[2026-07-02 19:25:58.996] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 19:25:58.996] [INFO ] [main        ] Platform: Windows 11 Home 25H2
+[2026-07-02 19:25:58.996] [INFO ] [main        ] Elevated: No
+[2026-07-02 19:26:25.140] [INFO ] [malware     ] Malware scan requested (mode 3)
+[2026-07-02 19:26:25.140] [INFO ] [malware     ] Malware scan started (depth=Full)
+[2026-07-02 19:26:26.725] [INFO ] [malware     ] AV engine: Windows Defender present
+[2026-07-02 19:26:28.046] [INFO ] [malware     ] Threat history: 0 active, 0 resolved
+[2026-07-02 19:26:30.977] [INFO ] [malware     ] Heuristics flagged 2 indicator(s)
+
+========================================================================
+ SESSION START  2026-07-02 19:36:07.918
+========================================================================
+[2026-07-02 19:36:07.919] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 19:36:07.919] [INFO ] [main        ] Platform: Windows 11 Home 25H2
+[2026-07-02 19:36:07.919] [INFO ] [main        ] Elevated: No
+[2026-07-02 19:37:24.793] [INFO ] [scan        ] Hardware scan started
+[2026-07-02 19:37:24.793] [INFO ] [hardware    ] Hardware scan started
+[2026-07-02 19:38:22.272] [INFO ] [scan        ] Hardware Scan  (57.48s)
+  >> 13th Gen Intel(R) Core(TM) i5-13400F
+[2026-07-02 19:38:32.672] [INFO ] [scan        ] Hardware scan complete
+
+========================================================================
+ SESSION START  2026-07-02 20:01:09.372
+========================================================================
+[2026-07-02 20:01:09.373] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 20:01:09.373] [INFO ] [main        ] Platform: Windows 11 Home 25H2
+[2026-07-02 20:01:09.373] [INFO ] [main        ] Elevated: No
+[2026-07-02 20:01:09.373] [INFO ] [malware     ] Malware scan requested (mode 1)
+[2026-07-02 20:01:09.373] [INFO ] [malware     ] Malware scan started (depth=Assessment)
+[2026-07-02 20:01:30.689] [INFO ] [malware     ] AV engine: Windows Defender present
+[2026-07-02 20:01:43.223] [INFO ] [malware     ] Threat history: 0 active, 0 resolved
+[2026-07-02 20:02:24.593] [WARN ] [exec        ] Command timed out after 40s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$u='(?i)\\Temp\\|\\AppDa
+[2026-07-02 20:02:24.593] [INFO ] [malware     ] Heuristics flagged 80 indicator(s)
+[2026-07-02 20:02:24.593] [INFO ] [malware     ] Malware verdict: Infected (score 0)
+[2026-07-02 20:02:24.593] [INFO ] [malware     ] Malware scan verdict: Infected
+[2026-07-02 20:02:24.593] [INFO ] [main        ] Session ended by user
+
+========================================================================
+ SESSION START  2026-07-02 20:06:11.602
+========================================================================
+[2026-07-02 20:06:11.602] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 20:06:11.602] [INFO ] [main        ] Platform: Windows 11 Home 25H2
+[2026-07-02 20:06:11.602] [INFO ] [main        ] Elevated: No
+[2026-07-02 20:06:11.602] [INFO ] [malware     ] Malware scan requested (mode 1)
+[2026-07-02 20:06:11.602] [INFO ] [malware     ] Malware scan started (depth=Assessment)
+[2026-07-02 20:06:43.237] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$s=Get-MpComputerStatus 
+[2026-07-02 20:06:43.238] [INFO ] [malware     ] AV engine: Windows Defender not available
+[2026-07-02 20:07:33.892] [WARN ] [exec        ] Command timed out after 40s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$u='(?i)\\Temp\\|\\Downl
+[2026-07-02 20:07:33.892] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance -Namespa
+[2026-07-02 20:07:33.892] [WARN ] [exec        ] Command timed out after 15s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-Content -LiteralPath
+[2026-07-02 20:07:33.893] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$mp=Get-MpPreference -Er
+[2026-07-02 20:07:33.893] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$m=@{}; Get-CimInstance 
+[2026-07-02 20:07:33.893] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance Win32_Se
+[2026-07-02 20:07:33.893] [INFO ] [malware     ] Heuristics flagged 2 indicator(s)
+[2026-07-02 20:07:33.893] [INFO ] [malware     ] Malware verdict: Suspicious (score 69)
+[2026-07-02 20:07:33.893] [INFO ] [malware     ] Malware scan verdict: Suspicious
+[2026-07-02 20:07:33.893] [INFO ] [main        ] Session ended by user
+
+========================================================================
+ SESSION START  2026-07-02 20:13:40.983
+========================================================================
+[2026-07-02 20:13:40.984] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 20:13:40.984] [INFO ] [main        ] Platform: Windows 11 Home 25H2
+[2026-07-02 20:13:40.984] [INFO ] [main        ] Elevated: No
+[2026-07-02 20:13:40.984] [INFO ] [malware     ] Malware scan requested (mode 1)
+[2026-07-02 20:13:40.984] [INFO ] [malware     ] Malware scan started (depth=Assessment)
+[2026-07-02 20:15:12.184] [WARN ] [exec        ] Command timed out after 90s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$s=Get-MpComputerStatus 
+[2026-07-02 20:15:12.184] [WARN ] [malware     ] Defender status query degraded — using service fallback
+[2026-07-02 20:15:12.184] [INFO ] [malware     ] AV engine: Windows Defender present
+
+========================================================================
+ SESSION START  2026-07-02 20:22:54.444
+========================================================================
+[2026-07-02 20:22:54.444] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 20:22:54.444] [INFO ] [main        ] Platform: Windows 11 Home 25H2
+[2026-07-02 20:22:54.444] [INFO ] [main        ] Elevated: No
+[2026-07-02 20:22:54.444] [INFO ] [malware     ] Malware scan requested (mode 1)
+[2026-07-02 20:22:54.444] [INFO ] [malware     ] Malware scan started (depth=Assessment)
+[2026-07-02 20:23:43.570] [WARN ] [exec        ] Command timed out after 45s: powershell -NoProfile -ExecutionPolicy Bypass -Command "schtasks /query /fo csv 
+[2026-07-02 20:23:43.570] [WARN ] [exec        ] Command timed out after 15s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-Content -LiteralPath
+[2026-07-02 20:23:43.570] [INFO ] [malware     ] AV engine: Windows Defender present
+[2026-07-02 20:23:43.570] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance -Namespa
+[2026-07-02 20:23:43.570] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance Win32_Se
+[2026-07-02 20:23:43.679] [INFO ] [malware     ] Threat history: 0 active, 0 resolved
+[2026-07-02 20:23:43.679] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$m=@{}; Get-CimInstance 
+[2026-07-02 20:23:43.679] [INFO ] [malware     ] Heuristics flagged 8 indicator(s)
+[2026-07-02 20:23:43.679] [INFO ] [malware     ] Malware verdict: Infected (score 4)
+[2026-07-02 20:23:43.679] [INFO ] [malware     ] Malware scan verdict: Infected
+[2026-07-02 20:23:43.679] [INFO ] [main        ] Session ended by user
+
+========================================================================
+ SESSION START  2026-07-02 20:27:42.761
+========================================================================
+[2026-07-02 20:27:42.762] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 20:27:42.762] [INFO ] [main        ] Platform: Windows 11 Home 25H2
+[2026-07-02 20:27:42.762] [INFO ] [main        ] Elevated: No
+[2026-07-02 20:27:42.762] [INFO ] [malware     ] Malware scan requested (mode 1)
+[2026-07-02 20:27:42.762] [INFO ] [malware     ] Malware scan started (depth=Assessment)
+[2026-07-02 20:29:18.689] [WARN ] [exec        ] Command timed out after 90s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$map=@{}; Get-MpThreat -
+[2026-07-02 20:29:18.689] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance -Namespa
+[2026-07-02 20:29:18.689] [WARN ] [exec        ] Command timed out after 45s: powershell -NoProfile -ExecutionPolicy Bypass -Command "schtasks /query /fo csv 
+[2026-07-02 20:29:18.689] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$keys=@('HKCU:\Software\
+[2026-07-02 20:29:18.689] [WARN ] [exec        ] Command timed out after 15s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-Content -LiteralPath
+[2026-07-02 20:29:18.689] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance Win32_Se
+[2026-07-02 20:29:18.689] [INFO ] [malware     ] Threat history: 0 active, 0 resolved
+[2026-07-02 20:29:18.689] [WARN ] [exec        ] Command timed out after 90s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$s=Get-MpComputerStatus 
+[2026-07-02 20:29:18.690] [WARN ] [malware     ] Defender status query degraded — using service fallback
+[2026-07-02 20:29:18.690] [INFO ] [malware     ] AV engine: Windows Defender present
+[2026-07-02 20:29:19.385] [WARN ] [exec        ] Command timed out after 40s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$me=17984;$u='(?i)\\Temp
+[2026-07-02 20:29:19.385] [WARN ] [exec        ] Command timed out after 30s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$m=@{}; Get-CimInstance 
+[2026-07-02 20:29:19.385] [WARN ] [exec        ] Command timed out after 60s: powershell -NoProfile -ExecutionPolicy Bypass -Command "$mp=Get-MpPreference -Er
+[2026-07-02 20:29:19.386] [INFO ] [malware     ] Heuristics flagged 0 indicator(s)
+[2026-07-02 20:29:19.386] [INFO ] [malware     ] Malware verdict: Clean (score 100)
+[2026-07-02 20:29:19.386] [INFO ] [malware     ] Malware scan verdict: Clean
+[2026-07-02 20:29:19.386] [INFO ] [main        ] Session ended by user
+
+========================================================================
+ SESSION START  2026-07-02 23:15:57.604
+========================================================================
+[2026-07-02 23:15:57.605] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 23:15:57.605] [INFO ] [main        ] Platform: Windows 11 Home 25H2
+[2026-07-02 23:15:57.605] [INFO ] [main        ] Elevated: No
+[2026-07-02 23:15:57.606] [INFO ] [malware     ] Malware scan requested (mode 1)
+[2026-07-02 23:15:57.606] [INFO ] [malware     ] Malware scan started (depth=Assessment)
+[2026-07-02 23:16:00.688] [INFO ] [malware     ] Threat history: 0 active, 0 resolved
+[2026-07-02 23:16:00.689] [INFO ] [malware     ] AV engine: Windows Defender present
+[2026-07-02 23:16:00.691] [INFO ] [malware     ] Heuristics flagged 0 indicator(s)
+[2026-07-02 23:16:00.691] [INFO ] [malware     ] Malware verdict: Clean (score 80)
+[2026-07-02 23:16:00.691] [INFO ] [malware     ] Malware scan verdict: Clean
+[2026-07-02 23:16:00.691] [INFO ] [main        ] Session ended by user
+
+========================================================================
+ SESSION START  2026-07-02 23:16:09.438
+========================================================================
+[2026-07-02 23:16:09.439] [INFO ] [main        ] System Health Toolkit v3.0.0 started
+[2026-07-02 23:16:09.439] [INFO ] [main        ] Platform: Windows 11 Home 25H2
+[2026-07-02 23:16:09.439] [INFO ] [main        ] Elevated: No
+[2026-07-02 23:16:09.439] [INFO ] [malware     ] Malware scan requested (mode 2)
+[2026-07-02 23:16:09.439] [INFO ] [malware     ] Malware scan started (depth=Quick)
+[2026-07-02 23:16:12.306] [INFO ] [malware     ] Threat history: 0 active, 0 resolved
+[2026-07-02 23:16:12.306] [INFO ] [malware     ] AV engine: Windows Defender present
+[2026-07-02 23:16:12.307] [INFO ] [malware     ] Heuristics flagged 0 indicator(s)
+[2026-07-02 23:20:09.872] [INFO ] [malware     ] Quick scan complete in 237s, 0 active threat(s)
+[2026-07-02 23:20:09.872] [INFO ] [malware     ] Malware verdict: Clean (score 80)
+[2026-07-02 23:20:09.872] [INFO ] [malware     ] Malware scan verdict: Clean
+[2026-07-02 23:20:09.872] [INFO ] [main        ] Session ended by user
